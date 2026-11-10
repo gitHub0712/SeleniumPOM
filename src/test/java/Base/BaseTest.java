@@ -29,11 +29,11 @@ public class BaseTest {
         driver.get("https://localhost:7048/forms/BankAccountForm.html");
     }
 
-  //  @AfterMethod
-  //  public void tearDown() {
+   @AfterMethod
+    public void tearDown() {
 
-        // Close browser after test execution
-      //  if (driver != null) {
+         Close browser after test execution
+        if (driver != null) {
             //driver.quit();
         }
     
